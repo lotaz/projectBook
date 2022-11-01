@@ -1,0 +1,31 @@
+.header{
+    background-color: #c6ecc3;
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    margin-top: 20px;
+    padding: 0 70px 0 70px;
+    height: 70px;
+    display: flex;
+    :nth-child(1){
+        width: 220;
+        height: 40px;
+    }
+    :nth-child(2){
+       font-size: 50px;
+       color: rgb(122, 111, 111);
+       padding-left: 30px;
+    }
+    :nth-child(3){
+        width: 500px;
+        height: 48px;
+        margin-left: 10px;
+        border-radius: 6px;
+        border: 1px solid rgb(204, 200, 200);
+    }
+}
+.button{
+    position: absolute;
+    background-color: blue;
+}
